@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/thef/Desktop/cppPro/sfml_test/build",
+  "command": "/usr/bin/g++  -I/home/thef/Desktop/cppPro/sfml_test/include -g -std=gnu++20 -o CMakeFiles/sfml_test.dir/main.cpp.o -c /home/thef/Desktop/cppPro/sfml_test/main.cpp",
+  "file": "/home/thef/Desktop/cppPro/sfml_test/main.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/sfml_test/build",
+  "command": "/usr/bin/g++  -I/home/thef/Desktop/cppPro/sfml_test/include -g -std=gnu++20 -o CMakeFiles/sfml_test.dir/src/Hero.cpp.o -c /home/thef/Desktop/cppPro/sfml_test/src/Hero.cpp",
+  "file": "/home/thef/Desktop/cppPro/sfml_test/src/Hero.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/sfml_test/build",
+  "command": "/usr/bin/g++  -I/home/thef/Desktop/cppPro/sfml_test/include -g -std=gnu++20 -o CMakeFiles/sfml_test.dir/src/Enemy.cpp.o -c /home/thef/Desktop/cppPro/sfml_test/src/Enemy.cpp",
+  "file": "/home/thef/Desktop/cppPro/sfml_test/src/Enemy.cpp"
+},
+{
+  "directory": "/home/thef/Desktop/cppPro/sfml_test/build",
+  "command": "/usr/bin/g++  -I/home/thef/Desktop/cppPro/sfml_test/include -g -std=gnu++20 -o CMakeFiles/sfml_test.dir/src/Rocket.cpp.o -c /home/thef/Desktop/cppPro/sfml_test/src/Rocket.cpp",
+  "file": "/home/thef/Desktop/cppPro/sfml_test/src/Rocket.cpp"
+}
+]

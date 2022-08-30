@@ -1,0 +1,5 @@
+/home/thef/Desktop/cppPro/sfml_test/build/CMakeFiles/sfml_test.dir
+/home/thef/Desktop/cppPro/sfml_test/build/CMakeFiles/package.dir
+/home/thef/Desktop/cppPro/sfml_test/build/CMakeFiles/package_source.dir
+/home/thef/Desktop/cppPro/sfml_test/build/CMakeFiles/edit_cache.dir
+/home/thef/Desktop/cppPro/sfml_test/build/CMakeFiles/rebuild_cache.dir
