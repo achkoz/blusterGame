@@ -298,6 +298,26 @@ CMakeFiles/sfml_test.dir/main.cpp.o: /home/thef/Desktop/cppPro/sfml_test/main.cp
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /usr/include/SFML/Audio.hpp \
+  /usr/include/SFML/Audio/InputSoundFile.hpp \
+  /usr/include/SFML/Audio/Export.hpp \
+  /usr/include/SFML/Audio/Listener.hpp \
+  /usr/include/SFML/Audio/Music.hpp \
+  /usr/include/SFML/Audio/SoundStream.hpp \
+  /usr/include/SFML/Audio/SoundSource.hpp \
+  /usr/include/SFML/Audio/AlResource.hpp \
+  /usr/include/SFML/Audio/OutputSoundFile.hpp \
+  /usr/include/SFML/Audio/Sound.hpp \
+  /usr/include/SFML/Audio/SoundBuffer.hpp \
+  /usr/include/c++/12.2.0/set \
+  /usr/include/c++/12.2.0/bits/stl_set.h \
+  /usr/include/c++/12.2.0/bits/stl_multiset.h \
+  /usr/include/SFML/Audio/SoundBufferRecorder.hpp \
+  /usr/include/SFML/Audio/SoundRecorder.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.hpp \
+  /usr/include/SFML/Audio/SoundFileFactory.inl \
+  /usr/include/SFML/Audio/SoundFileReader.hpp \
+  /usr/include/SFML/Audio/SoundFileWriter.hpp \
   /usr/include/c++/12.2.0/iostream \
   /usr/include/c++/12.2.0/istream \
   /usr/include/c++/12.2.0/bits/istream.tcc \
@@ -1228,6 +1248,22 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 
 /usr/include/c++/12.2.0/iostream:
 
+/usr/include/SFML/Audio/SoundFileWriter.hpp:
+
+/usr/include/SFML/Audio/SoundFileReader.hpp:
+
+/usr/include/SFML/Audio/SoundRecorder.hpp:
+
+/usr/include/SFML/Audio/SoundBufferRecorder.hpp:
+
+/usr/include/c++/12.2.0/set:
+
+/usr/include/SFML/Audio/Sound.hpp:
+
+/usr/include/SFML/Audio/OutputSoundFile.hpp:
+
+/usr/include/SFML/Audio/Export.hpp:
+
 /usr/include/SFML/Graphics/VertexBuffer.hpp:
 
 /usr/include/SFML/Graphics/Shader.hpp:
@@ -1263,6 +1299,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 /usr/include/SFML/Graphics/View.hpp:
 
 /usr/include/SFML/Graphics/Transformable.hpp:
+
+/usr/include/c++/12.2.0/bits/stl_multiset.h:
 
 /usr/include/SFML/Graphics/Rect.inl:
 
@@ -1320,6 +1358,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 
 /usr/include/bits/types/clock_t.h:
 
+/usr/include/SFML/Audio/Music.hpp:
+
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/c++/12.2.0/ext/numeric_traits.h:
@@ -1353,6 +1393,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 /usr/include/ctype.h:
 
 /usr/include/c++/12.2.0/cctype:
+
+/usr/include/SFML/Audio/SoundFileFactory.hpp:
 
 /usr/include/c++/12.2.0/bits/locale_facets.h:
 
@@ -1448,6 +1490,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 
 /usr/include/c++/12.2.0/cwchar:
 
+/usr/include/SFML/Audio/SoundSource.hpp:
+
 /usr/include/c++/12.2.0/cstdint:
 
 /usr/include/bits/long-double.h:
@@ -1468,11 +1512,15 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 
 /usr/include/SFML/System/Err.hpp:
 
+/usr/include/SFML/Audio/SoundBuffer.hpp:
+
 /usr/include/bits/floatn-common.h:
 
 /usr/include/c++/12.2.0/bits/concept_check.h:
 
 /usr/include/SFML/System/Export.hpp:
+
+/usr/include/SFML/Audio/Listener.hpp:
 
 /usr/include/c++/12.2.0/concepts:
 
@@ -1584,6 +1632,10 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 
 /usr/include/SFML/System/NonCopyable.hpp:
 
+/usr/include/c++/12.2.0/bits/stl_set.h:
+
+/usr/include/SFML/Audio/InputSoundFile.hpp:
+
 /usr/include/c++/12.2.0/bits/stl_map.h:
 
 /usr/include/c++/12.2.0/bits/stl_pair.h:
@@ -1662,6 +1714,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 
 /usr/include/bits/types/__fpos64_t.h:
 
+/usr/include/SFML/Audio/SoundStream.hpp:
+
 /usr/include/c++/12.2.0/clocale:
 
 /usr/include/bits/types/struct_FILE.h:
@@ -1675,6 +1729,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 /usr/include/SFML/Window/Touch.hpp:
 
 /usr/include/linux/errno.h:
+
+/usr/include/SFML/Audio.hpp:
 
 /usr/include/SFML/System/ThreadLocalPtr.inl:
 
@@ -1695,6 +1751,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h:
 
 /usr/include/c++/12.2.0/bits/charconv.h:
+
+/usr/include/SFML/Audio/SoundFileFactory.inl:
 
 /usr/include/c++/12.2.0/system_error:
 
@@ -1747,6 +1805,8 @@ CMakeFiles/sfml_test.dir/src/Rocket.cpp.o: /home/thef/Desktop/cppPro/sfml_test/s
 /usr/include/c++/12.2.0/bits/functional_hash.h:
 
 /usr/include/SFML/System/String.hpp:
+
+/usr/include/SFML/Audio/AlResource.hpp:
 
 /usr/include/c++/12.2.0/bits/uniform_int_dist.h:
 
