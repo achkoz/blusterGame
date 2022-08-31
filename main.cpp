@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <Hero.h>
 #include <Enemy.h>
@@ -22,6 +23,12 @@ sf::Font headingFont;
 sf::Text headingText;
 sf::Font scoreFont;
 sf::Text scoreText;
+
+sf::Music bgMusic;  
+sf::SoundBuffer fireBuffer;
+sf::SoundBuffer hitBuffer;
+sf::Sound fireSound(fireBuffer);
+sf::Sound hitSound(hitBuffer);
 
 float currentTime;
 float prevTime = 0.0f;
@@ -91,6 +98,12 @@ void init()
 
     hero.init("assets/graphics/hero.png", sf::Vector2f(viewSize.x * 0.25f, viewSize.y * 0.25f), 200);
     srand((int)time(0));
+
+    //Adding audio
+    bgMusic.openFromFile("assets/audio/bgMusic.ogg");
+    bgMusic.play();
+    fireBuffer.loadFromFile("assets/audio/fire.ogg");
+    hitBuffer.loadFromFile("assets/audio/hit.ogg");
 }
 
 void handleEvent()
@@ -199,6 +212,8 @@ void update(float dt)
                 delete(enemy);
                 delete(rocket);
 
+                hitSound.play();
+
                 std::cout << "rocket intersects enemy\n";
             }
         }
@@ -271,6 +286,7 @@ void shoot()
 {
     Rocket* rocket = new Rocket();
     rocket->init("assets/graphics/rocket.png", hero.getSprite().getPosition(), 400.0f);
+    fireSound.play();
 
     rockets.push_back(rocket);
 }
