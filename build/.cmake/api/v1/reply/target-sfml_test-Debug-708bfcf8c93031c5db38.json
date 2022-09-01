@@ -33,31 +33,37 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 10,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 11,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 12,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 13,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 9,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -68,40 +74,40 @@
 			},
 			{
 				"file" : 2,
-				"parent" : 6
+				"parent" : 7
 			},
 			{
 				"command" : 4,
 				"file" : 2,
 				"line" : 116,
-				"parent" : 7
+				"parent" : 8
 			},
 			{
 				"file" : 1,
-				"parent" : 8
+				"parent" : 9
 			},
 			{
 				"command" : 3,
 				"file" : 1,
 				"line" : 97,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 3,
 				"file" : 1,
 				"line" : 125,
-				"parent" : 9
+				"parent" : 10
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 5,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 7,
 				"file" : 0,
-				"line" : 10,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -121,7 +127,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 12,
+					"backtrace" : 13,
 					"path" : "/home/thef/Desktop/cppPro/sfml_test/include"
 				}
 			],
@@ -130,7 +136,7 @@
 			{
 				"backtraces" : 
 				[
-					13
+					14
 				],
 				"standard" : "20"
 			},
@@ -186,12 +192,37 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
-				"fragment" : "/usr/lib/libsfml-window.so.2.5.1",
+				"backtrace" : 6,
+				"fragment" : "-lglfm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lGLEW",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lGLEW",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lGLU",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lGL",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 11,
+				"fragment" : "/usr/lib/libsfml-window.so.2.5.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
 				"fragment" : "/usr/lib/libsfml-system.so.2.5.1",
 				"role" : "libraries"
 			}

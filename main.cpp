@@ -96,7 +96,7 @@ void init()
     scoreText.setOrigin(scorebounds.width / 2, scorebounds.height / 2);
     scoreText.setPosition(sf::Vector2f(viewSize.x * 0.5f, viewSize.y * 0.10f));
 
-    hero.init("assets/graphics/hero.png", sf::Vector2f(viewSize.x * 0.25f, viewSize.y * 0.25f), 200);
+    hero.init("assets/graphics/heroAnim.png", 4, 1.0f, sf::Vector2f(viewSize.x * 0.25f, viewSize.y * 0.25f), 200);
     srand((int)time(0));
 
     //Adding audio
