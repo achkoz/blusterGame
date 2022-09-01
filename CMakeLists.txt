@@ -10,7 +10,7 @@ include_directories(include/)
 add_executable(sfml_test main.cpp src/Hero.cpp src/Enemy.cpp src/Rocket.cpp)
 
 target_link_libraries(sfml_test sfml-graphics sfml-audio)
-target_link_libraries(sfml_test glfm GLEW libGLEW.so libGLU.so libGL.so)
+target_link_libraries(sfml_test glfw GLEW libGLEW.so libGLU.so libGL.so)
 target_compile_features(sfml_test PRIVATE cxx_std_20)
 target_link_directories(sfml_test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
 target_link_directories(sfml_test PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

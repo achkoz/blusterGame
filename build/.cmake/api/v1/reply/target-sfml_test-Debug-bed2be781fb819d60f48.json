@@ -193,7 +193,7 @@
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "-lglfm",
+				"fragment" : "-lglfw",
 				"role" : "libraries"
 			},
 			{
